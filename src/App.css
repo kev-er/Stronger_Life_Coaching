@@ -827,10 +827,24 @@ input[type="checkbox"] {
     left: 200%;
   }
 
-  .contact--section {
-    padding: 0 50px;
-    margin: 5px;
+  .skills--section--title {
+
   }
+
+  .skills--section, .portfolio--section, .testimonial--section {
+    width: 70%;
+    text-align: center;
+    padding-left: 60px;
+  }
+
+  .contact--section {
+    padding: 0px 110px 0 40px;
+    margin: 0 5px 0 17px;
+
+  }
+  /* .skills--section--container { */
+  /*   padding: 100px 250px; */
+  /* } */
 }
 
 
