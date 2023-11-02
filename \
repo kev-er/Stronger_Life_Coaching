@@ -858,7 +858,7 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 475px) {
   .logo--name {
-  font-size: 10px;  
+  font-size: 9px;  
   }
   .hero--section--title {
     font-size: 35px;
@@ -903,13 +903,13 @@ input[type="checkbox"] {
 
 .nav__hamburger {
   display: none;
-  width: 1.475rem;
+  width: 1.875rem;
   height: 1.313rem;
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 18px;
-  right: 15px;
+  top: 23px;
+  right: 20px;
 }
 
 .nav__hamburger__line {
@@ -957,7 +957,7 @@ input[type="checkbox"] {
     z-index: -1000;
   }
   .navbar--items.active {
-    top: 30px;
+    top: 35px;
     border-radius: 0 0 30px 30px; 
   }
   .nav__hamburger.active :nth-child(1) {
