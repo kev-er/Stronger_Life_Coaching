@@ -8,7 +8,7 @@ export default function HeroSection() {
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Become the person</span>{" "}
             you were made to be</h1>
-          <p className="hero--section-description">
+          <p className="hero--section-description hero--description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum?</p>
             <button className="btn btn-primary hero--bnt">BOOK A CHAT</button>
       </div>

@@ -3,8 +3,8 @@
 body {
   margin: 0;
   font-family: 'Montserrat', "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  -webkit-font-smoothing: 'Montserrat', "Roboto", sans-serif;
+  -moz-osx-font-smoothing: 'Montserrat', "Roboto", sans-serif;
   font-style: normal;
 }
 h1,
@@ -287,13 +287,14 @@ h2 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-
-
+  width: 100%;
 }
 .hero--section--img > img {
   width: 100%;
-  height: 100%;
-  border-radius: 40px 0 0 40px; 
+  height: 80%;
+  border-radius: 40px 0 0 40px;
+  overflow: clip;
+  object-fit: fill;
 }
 
 /* .hero--bnt { */
@@ -382,7 +383,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
+  width: 120%;
   height: 100%;
   border-radius: 30px; 
 }
@@ -647,11 +648,11 @@ input[type="checkbox"] {
   width: 100%;
 }
 /* Responsive Screens */
-@media only screen and (max-width: 2300px) {
+@media only screen and (max-width: 2900px) {
   .hero--section--title {
     font-size: 80px;
     line-height: 100px; 
-    margin-top: 50px; 
+    margin-top: 40%; 
   }
 }
 
@@ -659,7 +660,7 @@ input[type="checkbox"] {
   .hero--section--title {
     font-size: 60px;
     line-height: 70px;
-    margin-top: 50px;
+    margin-top: 50%;
     text-align: center;
   }
   .skills--section--title {
@@ -670,9 +671,9 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 1600px) {
   .hero--section--title {
-    font-size: 40px;
-    margin: 25px 0 0 0;
-    padding: 10px;  
+    font-size: 55px;
+    margin: 50% 0 0 0;
+    padding: 10px;
   }
   .skills--section--heading {
     font-size: 54px;
@@ -698,45 +699,11 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 1230px) {
-  .btn-outline-primary {
-    display: none;
-  }
-  .hero--section {
-    display: flex;
-    flex-direction: column; 
-    margin: 0;
-   }
-  #hero--img--main{
-    border-radius: none;
-  }
+@media only screen and (max-width: 1200px) {
 
-
-
-    .hero--section-description {
-    display: none; 
-  }
-  .hero--section--content {
-    background-color: white;
-    z-index: 2; 
-  }
-  .hero--section--title  {
-    position: absolute;
-    left: 50%;
-    top: 10%; 
-    transform: translate(-50%, 40%);
-    color: white;
-    font-size: 34px;
-    font-weight: bold;
-    z-index: 23; 
-  }
-
-  .hero--bnt {
-   position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+  .hero--section--img > img {
+    width: 100%;
+    border-radius: 30px 0 0px 30px;
   }
 
   .hero--section--title,
@@ -760,8 +727,10 @@ input[type="checkbox"] {
   .hero--section--content--box {
     align-items: center;
   }
-  .about--description {
-    display: on;
+   .about--section--img > img {
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
   }
 
   .portfolio--container-box {
@@ -789,6 +758,9 @@ input[type="checkbox"] {
     font-size: 35px;
     line-height: 40px;
   }
+  .hero--section--title {
+    margin: 50% 0 0 0;
+  }
   .hero--section--content--box {
     gap: 10px;
   }
@@ -799,7 +771,6 @@ input[type="checkbox"] {
   .contact--input {
     margin: 0 15px;
   }
-
 
   .container {
     display: flex;
@@ -815,22 +786,98 @@ input[type="checkbox"] {
     margin: 20px;
   }
 }
+@media only screen and (max-width: 850px) {
+.hero--section--title {
+    font-size: 35px;
+    margin: 50px 0 0 0;
+    padding: 10px;
+  }
+  .skills--section--heading {
+    font-size: 54px;
+    line-height: 70px;
+  }
+}
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 760px) {
+
+  /* Navbar */ 
+
+   .navbar {
+     top: 1px; 
+   }
+
+  /* Hero Section */ 
+
+   .hero--section {
+     padding: 0; 
+   }
+
+  .btn-outline-primary {
+    display: none;
+  }
+  .hero--section {
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+   }
+  #hero--img--main{
+    border-radius: 0; 
+    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero--description {
+   display: none; 
+  }
+  .hero--section--content {
+    background-color: white;
+    z-index: 2; 
+  }
+
+  .hero--bnt {
+    position: absolute; 
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, 50%);
+  }
+ 
+  .hero--section--title  {
+    position: absolute;
+    left: 50%;
+    top: 10%; 
+    transform: translate(-50%, 40%);
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+    z-index: 23;
+    margin-top: 40%;
+    width: 75%; 
+  }
+}
+
+
+
+@media only screen and (max-width: 475px) {
+
+  .hero--section--img > img {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+  }
+
   .hero--section--title {
-    font-size: 25px;
+    font-size: 35px;
+    line-height: 45px; 
     top: 5%; 
   }
 
   .hero--bnt {
-    padding: 3px 4px;
-    font-size: 11px; 
-    left: 200%;
+    position: absolute; 
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, 50%);
   }
 
-  .skills--section--title {
-
-  }
 
   .skills--section, .portfolio--section, .testimonial--section {
     width: 70%;
