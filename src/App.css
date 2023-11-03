@@ -798,18 +798,18 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
 
   /* Navbar */ 
 
    .navbar {
-     top: 1px; 
+     top: 10px; 
    }
 
   /* Hero Section */ 
 
    .hero--section {
-     padding: 0; 
+     padding: 0;
    }
 
   .btn-outline-primary {
@@ -823,6 +823,9 @@ input[type="checkbox"] {
   #hero--img--main{
     border-radius: 0; 
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover;
   }
   
   .hero--description {
@@ -833,30 +836,34 @@ input[type="checkbox"] {
     z-index: 2; 
   }
 
-  .hero--bnt {
-    position: absolute; 
-    left: 50%;
-    top: 50%; 
-    transform: translate(-50%, 50%);
-  }
- 
-  .hero--section--title  {
+    .hero--section--title  {
     position: absolute;
     left: 50%;
-    top: 10%; 
+    top: 20%; 
     transform: translate(-50%, 40%);
     color: white;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 60px;
+    line-height: 68px;
     font-weight: bold;
     z-index: 23;
     margin-top: 18%;
     width: 75%; 
   }
+
+
+  .hero--bnt {
+    position: absolute; 
+    left: 50%;
+    top: 75.77%; 
+    transform: translate(-50%, 50%);
+    box-shadow: 10px 15.333px 80px 0 rgba(0, 0, 0, 1.9);
+  }
+ 
+
 }
 
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 600px) {
   .logo--name {
   font-size: 10px;  
   }
@@ -866,17 +873,18 @@ input[type="checkbox"] {
   }
 
   .hero--section--title {
-    font-size: 35px;
-    line-height: 45px; 
-    top: 2%; 
+    font-size: 60px;
+    line-height: 65px; 
+    top: 10%; 
   }
 
   .hero--bnt {
     position: absolute; 
     left: 50%;
-    top: 38.22%; 
-    transform: translate(-50%, 50%);
-  }
+    top: 77.22%; 
+    transform: translate(-50%, 50%;)
+}
+
   .skills--section--heading {
     font-size: 25px;
     line-height: 45px;
@@ -931,16 +939,25 @@ input[type="checkbox"] {
     position: relative; 
     right: 45px;
   }
-
 }
 
-@media only screen and (max-width: 350px) {
-  .navbar {
-    width: 200px;
-    padding: 10px 10px;
-    margin: 0;
-    top: 5px;
+@media only screen and (max-width: 450px) {
+  .hero--section--title {
+    font-size: 50px;
+    line-height: 50px;
+  } 
+
+
+  .hero--bnt {
+    position: absolute; 
+    left: 50%;
+    top: 68.22%; 
+    transform: translate(-50%, 50%);
+    }
   }
+
+
+@media only screen and (max-width: 375px) {
 
   .nav__hamburger {
     top: 12px;
@@ -948,17 +965,19 @@ input[type="checkbox"] {
   }
 
   .hero--section--title {
-    margin: 0;
-    font-size: ;
+    margin-top: 25%;
+    font-size: 47px;
   }
 
   .hero--bnt {
     font-size: 12px;
-    top: 36%;
+    top: 77%;
   }
 
   #hero--img--main {
-    width: 100%;
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover;
   }
 
   /* About Section */ 
