@@ -850,7 +850,7 @@ input[type="checkbox"] {
     line-height: 60px;
     font-weight: bold;
     z-index: 23;
-    margin-top: 40%;
+    margin-top: 18%;
     width: 75%; 
   }
 }
@@ -868,13 +868,13 @@ input[type="checkbox"] {
   .hero--section--title {
     font-size: 35px;
     line-height: 45px; 
-    top: 5%; 
+    top: 2%; 
   }
 
   .hero--bnt {
     position: absolute; 
     left: 50%;
-    top: 52.22%; 
+    top: 38.22%; 
     transform: translate(-50%, 50%);
   }
   .skills--section--heading {
@@ -905,7 +905,7 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 350px) {
   .navbar {
     width: 200px;
     padding: 10px 10px;
@@ -925,7 +925,7 @@ input[type="checkbox"] {
 
   .hero--bnt {
     font-size: 12px;
-    top: 34%;
+    top: 36%;
   }
 
   #hero--img--main {
