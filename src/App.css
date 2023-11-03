@@ -796,6 +796,10 @@ input[type="checkbox"] {
     font-size: 54px;
     line-height: 70px;
   }
+
+  .hero--section-description {
+    width: 75vw;
+  }
 }
 
 @media only screen and (max-width: 800px) {
