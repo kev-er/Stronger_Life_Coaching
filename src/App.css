@@ -900,9 +900,38 @@ input[type="checkbox"] {
     width: 100%;
   }
 
-  .contact--section {
-    padding: 0 40px; 
+  /* Contact Form */ 
+  .sub--title {
+    display: none; 
   }
+  
+  .contact--title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .text-md {
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+  }
+  .contact--section {
+    width: 60%; 
+  }
+
+  .contact--label {
+    width: 100%;
+  }
+  .contact--input {
+    align-self: center;
+    padding: 5px 5px 0 0;
+  }
+  .contact--form--btn {
+    font-size: 12px;
+    position: relative; 
+    right: 45px;
+  }
+
 }
 
 @media only screen and (max-width: 350px) {
