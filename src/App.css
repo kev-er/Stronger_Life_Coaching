@@ -877,7 +877,7 @@ input[type="checkbox"] {
   }
 
   .hero--section--title {
-    font-size: 60px;
+    font-size: 55px;
     line-height: 65px; 
     top: 10%; 
   }
@@ -885,7 +885,7 @@ input[type="checkbox"] {
   .hero--bnt {
     position: absolute; 
     left: 50%;
-    top: 77.22%; 
+    top: 69.22%; 
     transform: translate(-50%, 50%;)
 }
 
@@ -947,15 +947,15 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 450px) {
   .hero--section--title {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 20%;
   } 
-
 
   .hero--bnt {
     position: absolute; 
     left: 50%;
-    top: 68.22%; 
+    top: 57.22%; 
     transform: translate(-50%, 50%);
     }
   }
@@ -969,13 +969,13 @@ input[type="checkbox"] {
   }
 
   .hero--section--title {
-    margin-top: 25%;
-    font-size: 47px;
+    margin-top: 10%;
+    font-size: 45px;
   }
 
   .hero--bnt {
     font-size: 12px;
-    top: 77%;
+    top: 59%;
   }
 
   #hero--img--main {
