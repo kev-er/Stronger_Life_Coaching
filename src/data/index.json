@@ -51,23 +51,20 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
       "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
       "author_name": "Dianne Smith",
       "author_designation": ""
     },
     {
       "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image.png",
+      "count": "5", 
       "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
       "author_name": "Kristian Watson",
       "author_designation": ""
     },
     {
       "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image.png",
+      "count": "5", 
       "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
       "author_name": "Pete Murphy",
       "author_designation": ""
