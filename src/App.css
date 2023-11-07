@@ -20,8 +20,6 @@ p {
   --primary: #D2D9B8;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
 }
@@ -232,11 +230,12 @@ h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-basis: 0;
-    padding-top: 145px; 
+    padding-top: 150px;
+    width: 70vw;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 50px 0 50px;
+    margin: auto;
     }
 
 .hero--section--content-box {
@@ -296,6 +295,7 @@ h2 {
   overflow: clip;
   object-fit: fill;
 }
+
 
 /* Skills Section Style */
 .skills--section {
@@ -644,6 +644,11 @@ input[type="checkbox"] {
 }
 /* Responsive Screens */
 @media only screen and (max-width: 2900px) {
+  .navbar {
+    width: 60vw;
+    margin: auto;
+  }
+
   .hero--section--title {
     font-size: 80px;
     line-height: 100px; 
@@ -652,6 +657,11 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1800px) {
+  .navbar {
+    width: 70vw;
+  }
+
+
   .hero--section--title {
     font-size: 60px;
     line-height: 70px;
@@ -802,13 +812,14 @@ input[type="checkbox"] {
   /* Navbar */ 
 
    .navbar {
-     top: 10px; 
+     top: 10px;
    }
 
   /* Hero Section */ 
 
    .hero--section {
      padding: 0;
+     width: 100vw;
    }
 
   .btn-outline-primary {

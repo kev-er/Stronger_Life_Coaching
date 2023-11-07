@@ -6,13 +6,13 @@ export default function HeroSection() {
       </div>
         <div className="hero--section--content">
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Become the person</span>{" "}
-            you were made to be</h1>
+            <span className="hero--section-title--color">Take the first</span>{" "}
+            steps to thrive</h1>
           <p className="hero--section-description hero--description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum?</p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit?</p>
             <button className="btn btn-primary hero--bnt">BOOK A CHAT</button>
       </div>
 
     </section>
   );
-}
+} 
